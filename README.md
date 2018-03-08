@@ -69,7 +69,7 @@ light_gray_bg='\[\e[107m\]'
 bold_txt='\[\e[1m\]'
 format_off='\[\e[0m\]'
 
-PS1="${red_txt}╭─❪${light_green_txt}\u${blue_txt}${bold_txt} \$${format_off}${red_txt}❫\n├─❪${yellow_txt}${light_magenta_txt}\w${format_off}${red_txt}❫\n├─⚫ ${yellow_txt}\@${format_off}${red_txt}\n╰─⚫ ${format_off}${green_txt}"
+PS1="${red_txt}╭─❪${light_green_txt}\u${blue_txt}${bold_txt} \$${format_off}${red_txt}❫\n├─❪${yellow_txt}${light_magenta_txt}\w${format_off}${red_txt}❫\n├─⚫ ${yellow_txt}\@${format_off}${red_txt}\n⚫ ${format_off}${green_txt}"
 ![alt text](https://github.com/tag2000sa/bash_PS1/blob/master/screen.png)
 
 =================================================================================================================
