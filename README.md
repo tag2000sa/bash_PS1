@@ -80,6 +80,7 @@ PS1="${red_txt}╭─❪${light_green_txt}\u${blue_txt}${bold_txt} \$${format_of
 export PS1="\\[\e[1;31m\\][\\[\e[1;33m\\]\u\\[\e[1;32m\\]@\\[\e[1;34m\\]\h\\[\e[1;31m\\]]\n\\[\e[1;31m\\][\\[\e[1;35m\\]\W\\[\e[1;31m\\]]\\[\e[1;36m\\]\$ \\[\033[0m\\]"
 
 ![alt text](https://github.com/tag2000sa/bash_PS1/blob/master/ex4.png)
+
 =================================================================================================================
 
 ### Example5
@@ -88,4 +89,5 @@ export PS1="\\[\e[1;31m\\][\\[\e[1;33m\\]\u\\[\e[1;32m\\]@\\[\e[1;34m\\]\h\\[\e[
 export PS1='\n\[$(tput bold)\]\[$(tput setaf 6)\]\t\[$(tput setaf 1)\][\[$(tput setaf 3)\]\u\[$(tput setaf 7)\]@\[$(tput setaf 2)\]\h \[$(tput setaf 6)\]\W\[$(tput setaf 1)\]]\[$(tput setaf 5)\]\\$ \[$(tput sgr0)\]'
 
 ![alt text](https://github.com/tag2000sa/bash_PS1/blob/master/Screenshot_20200218_160428.png)
+
 =================================================================================================================
