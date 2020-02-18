@@ -81,3 +81,11 @@ export PS1="\\[\e[1;31m\\][\\[\e[1;33m\\]\u\\[\e[1;32m\\]@\\[\e[1;34m\\]\h\\[\e[
 
 ![alt text](https://github.com/tag2000sa/bash_PS1/blob/master/ex4.png)
 =================================================================================================================
+
+### Example5
+#### Text Format
+
+export PS1='\n\[$(tput bold)\]\[$(tput setaf 6)\]\t\[$(tput setaf 1)\][\[$(tput setaf 3)\]\u\[$(tput setaf 7)\]@\[$(tput setaf 2)\]\h \[$(tput setaf 6)\]\W\[$(tput setaf 1)\]]\[$(tput setaf 5)\]\\$ \[$(tput sgr0)\]'
+
+![alt text](https://github.com/tag2000sa/bash_PS1/blob/master/Screenshot_20200218_160428.png)
+=================================================================================================================
